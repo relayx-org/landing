@@ -15,7 +15,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <head>
         <script
           defer
-          data-domain="relayx.cc"
+          data-domain="landing.relayx.cc"
           src="https://plausible.relayx.cc/js/script.js"
         ></script>
       </head>

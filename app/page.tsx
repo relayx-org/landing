@@ -129,6 +129,7 @@ export default function HomePage() {
           <Link href="#solutions">解决方案</Link>
           <Link href="#pricing">价格</Link>
           <Link href="#faqs">常见问题</Link>
+          <Link href="https://docs.relayx.cc">文档</Link>
         </nav>
         <div className="page__actions">
           <button
