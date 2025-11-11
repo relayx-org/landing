@@ -1,0 +1,132 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <title>RelayX Logo</title>
+  <defs>
+    <!-- 主要渐变 -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- 次要渐变 -->
+    <linearGradient id="secondaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- 连接线渐变 -->
+    <linearGradient id="connectionGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:0.8" />
+    </linearGradient>
+    
+    <!-- 发光效果 -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- 阴影效果 -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景圆环 -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="url(#primaryGrad)" stroke-width="2" opacity="0.3"/>
+  <circle cx="100" cy="100" r="85" fill="none" stroke="url(#secondaryGrad)" stroke-width="1" opacity="0.2"/>
+  
+  <!-- 主要图形：隧道入口 -->
+  <g filter="url(#shadow)">
+    <!-- 左侧隧道口 -->
+    <ellipse cx="60" cy="100" rx="25" ry="35" fill="url(#primaryGrad)" opacity="0.9"/>
+    <ellipse cx="60" cy="100" rx="18" ry="28" fill="#1a1a2e" opacity="0.8"/>
+    <ellipse cx="60" cy="100" rx="12" ry="20" fill="url(#connectionGrad)" opacity="0.6"/>
+    
+    <!-- 右侧隧道口 -->
+    <ellipse cx="140" cy="100" rx="25" ry="35" fill="url(#primaryGrad)" opacity="0.9"/>
+    <ellipse cx="140" cy="100" rx="18" ry="28" fill="#1a1a2e" opacity="0.8"/>
+    <ellipse cx="140" cy="100" rx="12" ry="20" fill="url(#connectionGrad)" opacity="0.6"/>
+  </g>
+  
+  <!-- 连接隧道 -->
+  <rect x="60" y="85" width="80" height="30" fill="url(#connectionGrad)" opacity="0.7" rx="15"/>
+  <rect x="65" y="90" width="70" height="20" fill="#1a1a2e" opacity="0.6" rx="10"/>
+  
+  <!-- 数据流动效果 -->
+  <g opacity="0.8">
+    <!-- 流动的数据包 -->
+    <circle cx="70" cy="95" r="3" fill="#f093fb">
+      <animate attributeName="cx" values="70;130;70" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="80" cy="105" r="2" fill="#667eea">
+      <animate attributeName="cx" values="80;120;80" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="75" cy="100" r="2.5" fill="#f5576c">
+      <animate attributeName="cx" values="75;125;75" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- 中央连接节点 -->
+  <g filter="url(#glow)">
+    <circle cx="100" cy="100" r="20" fill="url(#primaryGrad)"/>
+    <circle cx="100" cy="100" r="15" fill="url(#secondaryGrad)" opacity="0.8"/>
+    <circle cx="100" cy="100" r="8" fill="#fff" opacity="0.9"/>
+  </g>
+  
+  <!-- 连接指示器 -->
+  <g stroke="url(#connectionGrad)" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M 85 100 L 95 100">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 105 100 L 115 100">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" begin="0.5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- 网络节点 -->
+  <g fill="url(#primaryGrad)" opacity="0.7">
+    <circle cx="100" cy="60" r="4"/>
+    <circle cx="100" cy="140" r="4"/>
+    <circle cx="130" cy="70" r="3"/>
+    <circle cx="70" cy="70" r="3"/>
+    <circle cx="130" cy="130" r="3"/>
+    <circle cx="70" cy="130" r="3"/>
+  </g>
+  
+  <!-- 连接线 -->
+  <g stroke="url(#primaryGrad)" stroke-width="1.5" fill="none" opacity="0.4">
+    <path d="M 100 80 L 100 60"/>
+    <path d="M 100 120 L 100 140"/>
+    <path d="M 120 85 L 130 70"/>
+    <path d="M 80 85 L 70 70"/>
+    <path d="M 120 115 L 130 130"/>
+    <path d="M 80 115 L 70 130"/>
+  </g>
+  
+  <!-- 装饰性光环 -->
+  <circle cx="100" cy="100" r="50" stroke="url(#primaryGrad)" stroke-width="1" fill="none" opacity="0.2">
+    <animate attributeName="r" values="50;55;50" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;0.4;0.2" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- 品牌标识点 -->
+  <g fill="url(#secondaryGrad)" opacity="0.8">
+    <circle cx="40" cy="40" r="2"/>
+    <circle cx="160" cy="40" r="2"/>
+    <circle cx="40" cy="160" r="2"/>
+    <circle cx="160" cy="160" r="2"/>
+  </g>
+  
+  <!-- 微妙的X标记（代表RelayX中的X） -->
+  <g stroke="url(#secondaryGrad)" stroke-width="2" fill="none" opacity="0.3" stroke-linecap="round">
+    <path d="M 95 95 L 105 105"/>
+    <path d="M 105 95 L 95 105"/>
+  </g>
+</svg>

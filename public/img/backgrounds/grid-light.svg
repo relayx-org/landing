@@ -1,0 +1,55 @@
+<svg width="1440" height="1440" viewBox="0 0 1440 1440" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="1440" fill="url(#paint0_radial_1_1)"/>
+  <g opacity="0.4">
+    <path d="M0 80H1440" stroke="url(#paint1_linear_1_1)" stroke-width="0.8"/>
+    <path d="M0 160H1440" stroke="url(#paint1_linear_1_1)" stroke-width="0.8"/>
+    <path d="M0 240H1440" stroke="url(#paint1_linear_1_1)" stroke-width="0.8"/>
+    <path d="M0 320H1440" stroke="url(#paint1_linear_1_1)" stroke-width="0.8"/>
+    <path d="M0 400H1440" stroke="url(#paint1_linear_1_1)" stroke-width="0.8"/>
+    <path d="M0 480H1440" stroke="url(#paint1_linear_1_1)" stroke-width="0.8"/>
+    <path d="M0 560H1440" stroke="url(#paint1_linear_1_1)" stroke-width="0.8"/>
+    <path d="M0 640H1440" stroke="url(#paint1_linear_1_1)" stroke-width="0.8"/>
+    <path d="M0 720H1440" stroke="url(#paint1_linear_1_1)" stroke-width="0.8"/>
+    <path d="M0 800H1440" stroke="url(#paint1_linear_1_1)" stroke-width="0.8"/>
+    <path d="M0 880H1440" stroke="url(#paint1_linear_1_1)" stroke-width="0.8"/>
+    <path d="M0 960H1440" stroke="url(#paint1_linear_1_1)" stroke-width="0.8"/>
+    <path d="M0 1040H1440" stroke="url(#paint1_linear_1_1)" stroke-width="0.8"/>
+    <path d="M0 1120H1440" stroke="url(#paint1_linear_1_1)" stroke-width="0.8"/>
+    <path d="M0 1200H1440" stroke="url(#paint1_linear_1_1)" stroke-width="0.8"/>
+    <path d="M0 1280H1440" stroke="url(#paint1_linear_1_1)" stroke-width="0.8"/>
+    <path d="M0 1360H1440" stroke="url(#paint1_linear_1_1)" stroke-width="0.8"/>
+    <path d="M80 0V1440" stroke="url(#paint2_linear_1_1)" stroke-width="0.8"/>
+    <path d="M160 0V1440" stroke="url(#paint2_linear_1_1)" stroke-width="0.8"/>
+    <path d="M240 0V1440" stroke="url(#paint2_linear_1_1)" stroke-width="0.8"/>
+    <path d="M320 0V1440" stroke="url(#paint2_linear_1_1)" stroke-width="0.8"/>
+    <path d="M400 0V1440" stroke="url(#paint2_linear_1_1)" stroke-width="0.8"/>
+    <path d="M480 0V1440" stroke="url(#paint2_linear_1_1)" stroke-width="0.8"/>
+    <path d="M560 0V1440" stroke="url(#paint2_linear_1_1)" stroke-width="0.8"/>
+    <path d="M640 0V1440" stroke="url(#paint2_linear_1_1)" stroke-width="0.8"/>
+    <path d="M720 0V1440" stroke="url(#paint2_linear_1_1)" stroke-width="0.8"/>
+    <path d="M800 0V1440" stroke="url(#paint2_linear_1_1)" stroke-width="0.8"/>
+    <path d="M880 0V1440" stroke="url(#paint2_linear_1_1)" stroke-width="0.8"/>
+    <path d="M960 0V1440" stroke="url(#paint2_linear_1_1)" stroke-width="0.8"/>
+    <path d="M1040 0V1440" stroke="url(#paint2_linear_1_1)" stroke-width="0.8"/>
+    <path d="M1120 0V1440" stroke="url(#paint2_linear_1_1)" stroke-width="0.8"/>
+    <path d="M1200 0V1440" stroke="url(#paint2_linear_1_1)" stroke-width="0.8"/>
+    <path d="M1280 0V1440" stroke="url(#paint2_linear_1_1)" stroke-width="0.8"/>
+    <path d="M1360 0V1440" stroke="url(#paint2_linear_1_1)" stroke-width="0.8"/>
+  </g>
+  <defs>
+    <radialGradient id="paint0_radial_1_1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1200 120) scale(960)">
+      <stop stop-color="#EEF2FF"/>
+      <stop offset="1" stop-color="#F8FAFC"/>
+    </radialGradient>
+    <linearGradient id="paint1_linear_1_1" x1="0" y1="0" x2="1440" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CBD5F5" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#A5B4FC"/>
+      <stop offset="1" stop-color="#CBD5F5" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="paint2_linear_1_1" x1="0" y1="0" x2="0" y2="1440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CBD5F5" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#A5B4FC"/>
+      <stop offset="1" stop-color="#CBD5F5" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>
